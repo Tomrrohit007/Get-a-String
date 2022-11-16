@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (request, response) => {
-  response.send("Express Js");
+  response.send("Express JS");
 });
 
 app.listen(3000);
