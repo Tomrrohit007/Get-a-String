@@ -6,3 +6,4 @@ app.get("/", (request, response) => {
 });
 
 app.listen(3000);
+module.exports = app;
